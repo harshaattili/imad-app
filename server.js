@@ -11,7 +11,7 @@ var articles = {
         title: 'Article One | Harsha Attili',
         heading: 'Article One',
         date: 'sep 23,2017',
-        content:
+        content:`
          <p>
             This is the content for my first atricle. This is the content for my first atricle. This is the content for my first atricleThis is the content for my first atricle. This is the content for my first atricle. This is the content for my first atricle. This is the content for my first atricle. This is the content for my first atricle.
         </p> 
