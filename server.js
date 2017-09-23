@@ -22,36 +22,37 @@ var articles = {
          <p>
           
             This is the content for my first atricle. This is the content for my first atricle. This is the content for myfirst atricle. This is the content for my first atricle. This is the content for my first atricle. This is the content for my first atricle. This is the content for my first atricle. This is the content for my first atricle.
-        </p>   
+        </p>` 
     
-};
+},
  'article-two' : {
     title: 'Article Two| Harsha Attili',
         heading: 'Article Two',
         date: 'sep 24,2017',
-        content:  
+        content: `  
         <p>
             This is the content for my second article.
-        </p>
+        </p> `
         
- };
+ },
   'article-three' : {
     title: 'Article Three| Harsha Attili',
         heading: 'Article Three',
         date: 'sep 25,2017',
-        content:  
+        content:`  
         <p>
             This is the content for my third article.
-        </p>
+        </p>`
+  }
 };
-}
-fuction createTemplate (data) {
+
+function createTemplate (data) {
     var title = data.title;
-    var data = data.date;
+    var date = data.date;
     var heading = data.heading;
     var content = data.content;
     
-    var htmlTemplate =`
+    var htmlTemplate = `
     <html>
      <head>
          <title>
@@ -59,7 +60,7 @@ fuction createTemplate (data) {
          </title>
          <meta  name="viewpoint" content="width=device-width, initial-scale=1" />
          <link  href="/ui/style.css" rel="stylesheet" />
-         </head>
+     </head>
          <body>
              <div class="container">
                  <div>
